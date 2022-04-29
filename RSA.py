@@ -65,21 +65,6 @@ def decrypt(chunks, private_key):
     return final
 
 
-#en = encrypt("mr gach you said you played video games which is your favorite of all time", (941, 10194739))
-enciphered = ""
-
-
-
-t = "9397891 5490870 9871931 8654921 2835910 5395423 8527455 1737856 2825337 4081073 9729278 6087148 2040808 4489618 3675468 3474439 5482663 3966927 958610 935519 3483551 6025261"
-print(t.split())
-de = decrypt(t.split(), (2901413, 10194739))
-print(de)
-"""
-en = encrypt("you said you played video games which is your favorite of all time", (941, 10194739))
-print(en)
-de = decrypt(en, (2901413, 10194739))
-print(de)
-"""
 
 which = input("What would you like to do?\n1. Encrypt\n2. Decrypt\n")
 
